@@ -11,7 +11,6 @@ Built with **HTML, CSS, JavaScript**, and powered by **OpenRouter API**, this ch
 
 ###  AI
 - Uses [OpenRouter](https://openrouter.ai) API (DeepSeek model) to generate responses.
-- Has a savage personality — it won’t be polite unless you’re polite first. 😉
 
 ###  Chat Features
 - **Real-time responses**
