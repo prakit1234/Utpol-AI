@@ -65,7 +65,6 @@ chatForm.addEventListener('submit', async (e) => {
       headers: {
         'Authorization': `Bearer ${API_KEY}`,
         'Content-Type': 'application/json',
-        'HTTP-Referer': 'http://localhost',
         'X-Title': 'Utpol AI'
       },
       body: JSON.stringify({
