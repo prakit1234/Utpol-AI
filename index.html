@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Utpol AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1> Utpol AI</h1>
+      <div class="controls">
+        <button id="toggle-mode">☾</button>
+        <button id="download-chat">📃</button>
+        <button id="mic-btn">🎤</button>
+      </div>
+    </header>
+
+    <main id="chat-box" class="chat-box"></main>
+
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off" />
+      <button type="submit">➤</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
